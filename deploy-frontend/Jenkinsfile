@@ -29,8 +29,8 @@ pipeline {
             steps {
                 script {
 
-                    MY_KEYPAIR_NAME = ""
-                    MY_APP_PRIVATE_IP = "" 
+                    MY_KEYPAIR_NAME = "my-ec2"
+                    MY_APP_PRIVATE_IP = "10.1.1.147" 
 
                     sh  """
                         git clone https://github.com/GeekyHack/facam-ansible.git 
